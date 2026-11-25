@@ -27,16 +27,16 @@ const resources = [
   {
     id: 3,
     title: "Material Engineering",
-    type: "image",
-    category: "Photos",
+    type: "pdf",
+    category: "notes",
     file: "/resources/diagram.jpg",
   },
   {
     id: 4,
     title: "Biology",
-    type: "image",
-    category: "Photos",
-    file: "/resources/biology.jpg",
+    type: "pdf",
+    category: "Notes",
+    file: "/resources/biology.pdf",
   },
   {
     id: 5,

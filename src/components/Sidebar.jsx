@@ -24,9 +24,30 @@ export function Sidebar() {
   return (
     <aside className="sidebar">
       <div className="brand">
-        <div className="brand-icon">
-          <CheckCircle2 size={25} />
-        </div>
+        <div
+  className="brand-icon"
+  style={{
+    width: "43px",
+    height: "43px",
+    minWidth: "43px",
+    minHeight: "43px",
+    flex: "0 0 43px",
+    overflow: "hidden",
+    borderRadius: "12px",
+    backgroundColor: "#ffffff",
+  }}
+>
+  <img
+    src="/logo.png"
+    alt="YMCAplanner Logo"
+    style={{
+      width: "100%",
+      height: "100%",
+      objectFit: "contain",
+      display: "block",
+    }}
+  />
+</div>
         <div>
           <h2>YMCAplanner</h2>
           <span>Plan your day better</span>
